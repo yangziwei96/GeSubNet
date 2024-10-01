@@ -1,0 +1,32 @@
+# GeSubNet.
+
+This is a simple example (already anonymized) related to the paper "GeSubNet: Gene Interaction Inference for Disease Subtype Network Generation".
+
+# Dependencies:
+GeSubNet is built based on PyTorch.
+You can install PyTorch following the instructions in [PyTorch](https://pytorch.org/get-started/locally/). For example:
+
+```bash
+pip install torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
+```
+After ensuring that PyTorch is installed correctly, you can install other dependencies via:
+
+```bash
+pip install -r requirements.txt
+```
+
+# About data:
+We have prepared datasets for four cancers: BRCA, GBM, OV, and LGG. The dataset is in the in the directory ```./data/```.
+
+# Training:
+For GeSubNet:
+The main code is ```./GeSubNet_main.py```.
+
+The available models for Patient-M and Graph-M are in the directory ```./model/```.
+
+The utils needed for training are ```./utils.py```.
+
+Log files will be generated and updated in  ```./log/``` during the training process.
+
+# Case Analysis:
+More results of the BRCA case analysis are in the directory ```./Case Analysis/```.
