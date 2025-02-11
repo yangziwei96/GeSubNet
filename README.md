@@ -1,6 +1,6 @@
 # GeSubNet.
 
-This is a simple example (already anonymized) related to the paper "GeSubNet: Gene Interaction Inference for Disease Subtype Network Generation".
+This is an official implementation of paper (ICLR 2025 Oral), "GeSubNet: Gene Interaction Inference for Disease Subtype Network Generation". 
 
 # Dependencies:
 GeSubNet is built based on PyTorch.
@@ -30,3 +30,17 @@ Log files will be generated and updated in  ```./log/``` during the training pro
 
 # Case Analysis:
 More results of the BRCA case analysis are in the directory ```./Case Analysis/```.
+
+## Citation
+If you find our work useful in your research, please consider citing:
+```
+@misc{gesubnetICLR2025,
+      title={GeSubNet: Gene Interaction Inference for Disease Subtype Network Generation}, 
+      author={Ziwei Yang and Zheng Chen and Xin Liu and Rikuto Kotoge and Peng Chen and Yasuko Matsubara and Yasushi Sakurai and Jimeng Sun},
+      year={2024},
+      eprint={2410.13178},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG} 
+}
+
+```
